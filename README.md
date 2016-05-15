@@ -1,13 +1,11 @@
 # LZW_Compression
 LZW is a lossless compression/decompression algorithm.
 
+The compression algorithm takes a text file as input, encodes the contents of the input file using LZW compression algorithm, 
+into UTF-16BE format & writes it into a file with .lzw extension. The contents of this file are not human readable.
 
-LZW is a lossless compression/decompression algorithm. 
-		The compression algorithm takes a text file as input, encodes the contents of the input file using LZW compression algorithm, 
-			into UTF-16BE format & writes it into a file with .lzw extension. The contents of this file are not human readable.
-			
-		The decompression algorithm takes a file with .lzw extension, decodes the contents of the file using LZW decompression algorithm 
-			and writes it into a text file. This contents of this file are human-readable.
+The decompression algorithm takes a file with .lzw extension, decodes the contents of the file using LZW decompression algorithm 
+and writes it into a text file. This contents of this file are human-readable.
 			
 
 Files:
